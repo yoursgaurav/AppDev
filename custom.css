@@ -8,6 +8,14 @@ div, span, p, a {
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-image: linear-gradient(45deg, #d7dee9, #f8fbff 33%, #f8fbff 66%, #d7dee9);
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
 .hero-section {
     display: flex;
     align-items: center;
@@ -59,4 +67,9 @@ div, span, p, a {
         order: 1;
         margin-bottom: 1rem;
     }
+}
+
+.feature-icon {
+    width: 1.75em;
+    height: 1.75em;
 }
