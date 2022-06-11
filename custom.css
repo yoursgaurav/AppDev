@@ -8,22 +8,55 @@ div, span, p, a {
     font-family: 'Poppins', sans-serif;
 }
 
-.card-container {
+.hero-section {
+    display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.card {
-    width: 20rem;
+.heroleft {
+    max-width: 50%;
+    padding-right: 2rem;
 }
 
-@media only screen and (max-width:1199px) {
-    .card-container {
-        align-items: center;
-        justify-content: center;
+.heroright {
+    max-width: 50%;
+    padding-left: 2rem;
+}
+
+.heroright img {
+    max-height: 440px;
+}
+
+@media only screen and (max-width:768px) {
+    .hero-section {
+        flex-direction: column;
+        padding-top: 0rem !important;
     }
 
-    .card {
-        width: 100%;
+    .heroleft {
+        max-width: 100%;
+        padding-right: 0;
+        order: 2;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heroleft h1 {
+        text-align: center;
+    }
+
+    .heroleft p {
+        text-align: center;
+    }
+
+    .heroright {
+        max-width: 100%;
+        padding-left: 0rem;
+        order: 1;
+        margin-bottom: 1rem;
     }
 }
