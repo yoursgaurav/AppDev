@@ -16,7 +16,7 @@ body {
     background-color: transparent !important;
 }
 
-.hero-section {
+#hero-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,7 +38,7 @@ body {
 }
 
 @media only screen and (max-width:768px) {
-    .hero-section {
+    #hero-section {
         flex-direction: column;
         padding-top: 0rem !important;
     }
