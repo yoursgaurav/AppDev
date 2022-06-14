@@ -1,0 +1,24 @@
+// custom variables
+$primary: #8800ff;
+$light: #ddb6ff;
+$btn-border-radius: 0.5rem;
+$btn-border-radius-sm:  0.5rem;
+$btn-border-radius-lg:  0.5rem;
+$input-btn-focus-width: 0rem ;
+$btn-hover-bg-shade-amount:       100%;
+$btn-hover-bg-tint-amount:        100%;
+
+
+// Add function and variables
+@import '../node_modules/bootstrap/scss/_functions';
+@import '../node_modules/bootstrap/scss/_variables';
+
+$custom-theme-colors: (
+    "altlight": #b2ef7d,
+    "altdark": #1a3800
+);
+
+$theme-colors : map-merge($custom-theme-colors, $theme-colors );
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
