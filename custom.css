@@ -73,3 +73,7 @@ body {
     height: 40px;
     margin-right: 1rem;
 }
+
+.accordion-item, .accordion-item button {
+    background-color: transparent !important;
+}
