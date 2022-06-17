@@ -5,7 +5,7 @@ A landing page template to showcase features of an app.
 
 
 ## Demo / Live Preview
-[Click to preview](https://www.yoursgaurav.github.io/AppDev)
+[Click to preview](https://yoursgaurav.github.io/AppDev)
  
 ## Author
 [@yoursgaurav](https://www.github.com/yoursgaurav)
@@ -14,7 +14,7 @@ A landing page template to showcase features of an app.
 
 ## Installation
 
-- Download the latest release from [GitHub](https://www.github.com/yoursgaurav/AppDev)
+- Download the latest release from [GitHub](https://github.com/yoursgaurav/AppDev/releases)
 
 - Extract the .zip or .tar file.
 ## Edit and Use
